@@ -31,36 +31,6 @@ const DUMMY_EXPENSES = [
     amount: 680.0,
     date: new Date('2023-05-05'),
   },
-  {
-    id: 'e6',
-    description: 'Have launch',
-    amount: 30.0,
-    date: new Date('2023-04-28'),
-  },
-  {
-    id: 'e7',
-    description: 'Fill gas',
-    amount: 50.0,
-    date: new Date('2023-04-29'),
-  },
-  {
-    id: 'e8',
-    description: 'Comestic',
-    amount: 305.0,
-    date: new Date('2023-05-30'),
-  },
-  {
-    id: 'e9',
-    description: 'Books',
-    amount: 100.0,
-    date: new Date('2023-05-01'),
-  },
-  {
-    id: 'e10',
-    description: 'Helmet',
-    amount: 680.0,
-    date: new Date('2023-05-05'),
-  },
 ];
 
 export const ExpensesContext = createContext({
