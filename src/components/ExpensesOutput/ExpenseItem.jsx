@@ -21,7 +21,7 @@ export default function ExpenseItem({ id, description, amount, date }) {
       onPress={handlePressExpense}
     >
       <View style={styles.expenseItem}>
-        <View>
+        <View style={styles.textContainer}>
           <Text style={[styles.textBase, styles.description]}>
             {description}
           </Text>
@@ -55,8 +55,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
+  textContainer: { flex: 1 },
+
   textBase: {
     color: GlobalStyles.colors.primary50,
+    // flexWrap: 'wrap',
+    flexShrink: 1,
   },
 
   description: {
